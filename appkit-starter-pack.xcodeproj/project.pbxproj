@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		482FEA1D2DC8FD9A000396C3 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FEA1C2DC8FD9A000396C3 /* app.swift */; };
+		482FEA1F2DC8FD9A000396C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FEA1E2DC8FD9A000396C3 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		482FEA192DC8FD9A000396C3 /* appkit-starter-pack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appkit-starter-pack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		482FEA1C2DC8FD9A000396C3 /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
+		482FEA1E2DC8FD9A000396C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		482FEA102DC8FD9A000396C3 = {
 			isa = PBXGroup;
 			children = (
+				482FEA1C2DC8FD9A000396C3 /* app.swift */,
+				482FEA1E2DC8FD9A000396C3 /* main.swift */,
 				482FEA1B2DC8FD9A000396C3 /* appkit-starter-pack */,
 				482FEA1A2DC8FD9A000396C3 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482FEA1F2DC8FD9A000396C3 /* main.swift in Sources */,
+				482FEA1D2DC8FD9A000396C3 /* app.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
