@@ -17,6 +17,16 @@ class MainWindowView: NSView {
     
     func setupView() {
         frame = NSRect(x: 0, y: 0, width: WindowConfig.width, height: WindowConfig.height)
+        
+        addHelloWorldTextField()
+    }
+    
+    func addHelloWorldTextField() {
+        let textField = NSTextField(labelWithString: "Hello, World!")
+        textField.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(textField)
+        textField.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        textField.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
     }
 }
 
@@ -63,6 +73,7 @@ app.delegate = delegate
 
 app.run()
 
+@available(macOS 14.0, *)
 #Preview {
     MainWindowViewController()
 }
