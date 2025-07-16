@@ -13,4 +13,4 @@ Here you might see an example output of the `sh create-macos-app.sh 'my app'` co
 <img width="1081" height="760" alt="image" src="https://github.com/user-attachments/assets/7b6455dc-a90c-4b73-85c8-94ec39211aa6" />
 
 Plans:
-[] Cretae UIKit starter pack for iOS.
+[ ] Cretae UIKit starter pack for iOS.
