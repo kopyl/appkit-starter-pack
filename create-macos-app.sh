@@ -32,7 +32,7 @@ else
 fi
 
 # Sanitize app name - remove special characters and replace spaces with dashes, but keep original case
-SANITIZED_NAME=$(echo "$APP_NAME" | sed 's/[^a-zA-Z0-9 _-]//g' | sed 's/[[:space:]]\+/-/g')
+SANITIZED_NAME=$(echo "$APP_NAME" | sed -E 's/[^a-zA-Z0-9]+/-/g')
 # Create bundle identifier safe name (lowercase, no spaces, only alphanumeric, hyphens, and dots)
 BUNDLE_ID_NAME=$(echo "$SANITIZED_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]//g')
 
